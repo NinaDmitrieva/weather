@@ -1,0 +1,12 @@
+@import '~normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=El+Messiri&family=Montserrat:ital,wght@0,200;0,400;0,700;1,400&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
