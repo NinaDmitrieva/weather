@@ -9,7 +9,7 @@ interface Props {
 export const ThisDay = (props: Props) => {
  
     return (
-        <header className={s.this_day}>
+        <div className={s.this_day}>
           <div className={s.top_block}>
 
             <div className={s.top_block_wrapper}>
@@ -27,6 +27,6 @@ export const ThisDay = (props: Props) => {
               Время: <span>Москва</span>
             </div>
           </div>
-        </header>
+        </div>
     )
 }
