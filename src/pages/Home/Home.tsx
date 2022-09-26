@@ -10,8 +10,10 @@ export const Home = (props: Props) => {
   return ( 
 
   <div className={s.home}>
+    <div className={s.wrapper}>
     <ThisDay />
     <ThisDayInfo />
+    </div>
   </div>
 
   )

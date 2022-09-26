@@ -43,7 +43,7 @@ export const ThisDayInfo = (props: Props) => {
         ))}
          
          </div>
-         <img src={cloud} alt='тучка' />
+         <img className={s.cloud_img} src={cloud} alt='тучка' />
         </div>
     )
 }
