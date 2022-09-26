@@ -1,6 +1,6 @@
 import React from 'react';
+import { IndicatorSvgSelector } from '../../../../../assets/icons/indicators/IndicatorSvgSelector';
 import { Item } from './ThisDayInfo';
-
 import s from './ThisDayInfo.module.scss';
 
 interface Props {
@@ -12,7 +12,7 @@ export const ThisDayItem = ({item}: Props) => {
   return ( 
   <div className={s.item}>
     <div className={s.indicator}>
-      {/* {тут нужен svg селектор} */}
+      <IndicatorSvgSelector id={icon_id}/>
     </div>
     <div className={s.indicator_name}>{name}</div>
     <div className={s.indicator_value}>{value}</div>
