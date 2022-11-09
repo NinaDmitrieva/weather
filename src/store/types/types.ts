@@ -1,1 +1,1 @@
-export type Weather ={};
+export type Weather = {};
